@@ -27,6 +27,19 @@ public class OrderController {
 
     /**
      * 模拟添加一个订单，可以指定多少秒超时，如果不指定，默认10秒就超时
+     * <pre>
+     *     客户端请求：
+     *          postman eg:
+     *              localhost:8081/order
+     *              POST
+     *              name:香烟
+     *              price:1000
+     *              delay:5
+     *          curl eg:
+     *              curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: text/xml' \
+     *              -d 'name=香烟&price=1000&delay=8' 'http://localhost:8081/order'
+     *
+     * </pre>
      *
      * @param order 订单
      * @param delay 超时时间
