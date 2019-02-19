@@ -1,0 +1,54 @@
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### macOS template
+*.DS_Store
+
+### Eclipse template
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# tomcat out dic
+out
+
+# build dic
+target
+
+# test dic
+test
+
+### Idea
+.idea
+*.iml
+
+# bin
+bin
+.mvn
+mvnw.cmd
+mvnw
